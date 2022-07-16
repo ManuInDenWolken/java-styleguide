@@ -1,0 +1,26 @@
+name: Bug Report
+description: The report of a simple mistake, like a typo or a code fail in example.
+title: "[Bug]: "
+labels: [ bug ]
+assignees: [ ManuInDenWolken ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for de-issuing this style guide!
+  - type: dropdown
+    id: subject
+    attributes:
+      label: Kind
+      description: "What **kind** of bug is it?"
+      options:
+        - Code
+        - Content
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please describe the issue.
+      description: "**Where** did the issue happen?"
+    validations:
+      required: true

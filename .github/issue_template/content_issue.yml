@@ -1,0 +1,33 @@
+name: Bug Report
+description: The request for introducing or altering a convention.
+title: "[Content]: "
+labels: [enhancement]
+assignees: [ManuInDenWolken]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to improve this style guide!
+  - type: dropdown
+    id: subject
+    attributes:
+      label: Kind
+      description: "What **kind** of modification do you request?"
+      options:
+        - Introducing Convention
+        - Altering Convention
+        - Improving Code
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please reason the enhancement.
+      description: "**Why** should we implement it?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please describe the enhancement.
+      description: "**How** should we implement **what**?"
+    validations:
+      required: true
