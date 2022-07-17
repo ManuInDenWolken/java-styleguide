@@ -12,7 +12,7 @@ body:
     id: subject
     attributes:
       label: Kind
-      description: "What **kind** of bug is it?"
+      description: What kind of bug is it?
       options:
         - Code
         - Content
@@ -21,6 +21,6 @@ body:
   - type: textarea
     attributes:
       label: Please describe the issue.
-      description: "**Where** did the issue happen?"
+      description: Where did the issue happen?
     validations:
       required: true

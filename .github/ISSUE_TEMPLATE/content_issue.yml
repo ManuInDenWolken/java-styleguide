@@ -1,8 +1,8 @@
-name: Content Issue
+name: Enhancement Request
 description: The request for introducing or altering a convention.
 title: "[Content]: "
-labels: [enhancement]
-assignees: [ManuInDenWolken]
+labels: [ enhancement ]
+assignees: [ ManuInDenWolken ]
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
     id: subject
     attributes:
       label: Kind
-      description: "What **kind** of modification do you request?"
+      description: What kind of modification do you request?
       options:
         - Introducing Convention
         - Altering Convention
@@ -22,12 +22,12 @@ body:
   - type: textarea
     attributes:
       label: Please reason the enhancement.
-      description: "**Why** should we implement it?"
+      description: Why should we implement it?
     validations:
       required: true
   - type: textarea
     attributes:
       label: Please describe the enhancement.
-      description: "**How** should we implement **what**?"
+      description: How should we implement what?
     validations:
       required: true
